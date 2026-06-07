@@ -1,0 +1,15 @@
+{
+  "name": "enviro365-selenium-tests",
+  "version": "1.0.0",
+  "description": "Login automation tests for technical assessment",
+  "main": "valid-login-test.js",
+  "scripts": {
+    "test:valid": "node valid-login-test.js",
+    "test:invalid": "node invalid-login-test.js"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^4.15.0"
+  },
+  "author": "",
+  "license": "MIT"
+}
